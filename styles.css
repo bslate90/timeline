@@ -15,7 +15,7 @@ header {
 /*Header Logo adjustments*/
 /*https://github.com/bslate90/timeline/blob/main/logo.jpeg*/
 
-.header-logo {
+header-logo {
     width: 15vw; /* Adjust the value as needed */
     max-width: 100px; /* Set a maximum width to prevent the logo from getting too large on big screens */
     display: block;
