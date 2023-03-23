@@ -313,7 +313,7 @@ const timeline = document.querySelector(".timeline");
         contentElement.classList.add("timeline-event-content");
 
         const titleElement = document.createElement("h3");
-        titleElement.textContent = eventData.title;
+		titleElement.textContent = eventData.name;
 
         const descriptionElement = document.createElement("p");
         descriptionElement.textContent = eventData.description;
