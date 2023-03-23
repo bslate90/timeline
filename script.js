@@ -3,14 +3,12 @@ document.addEventListener("DOMContentLoaded", () => {
 	  {
 	    name: "Send out a press release to relevant media outlets",
 	    date: "April 24",
-	    description:
-	      "Announcing the Major Cannabis Expo 2023, its dates, venue, and key highlights.",
+	    description: "Announcing the Major Cannabis Expo 2023, its dates, venue, and key highlights.",
 	  },
 	  {
 	    name: "Publish a blog post on the event website",
 	    date: "April 24",
-	    description:
-	      "With all the essential information about the expo, including its purpose, schedule, speakers, and registration details.",
+	    description: "With all the essential information about the expo, including its purpose, schedule, speakers, and registration details.",
 	  },
 	  {
 	    name: "Launch a countdown on the event website and social media platforms",
@@ -20,8 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
 	  {
 	    name: "Announce the expo on your LinkedIn company page",
 	    date: "April 25",
-	    description:
-	      "Sharing key information and inviting your network to attend.",
+	    description: "Sharing key information and inviting your network to attend.",
 	  },
 	  {
 	    name: "Announce the expo on Facebook",
@@ -31,56 +28,47 @@ document.addEventListener("DOMContentLoaded", () => {
 	  {
 	    name: "Share the announcement on Instagram",
 	    date: "April 26",
-	    description:
-	      "Using a visually appealing image or video and relevant hashtags.",
+	    description: "Using a visually appealing image or video and relevant hashtags.",
 	  },
 	  {
 	    name: "Announce the expo on TikTok",
 	    date: "April 27",
-	    description:
-	      "Creating a short, engaging video that highlights the event's key features and encourages viewers to learn more.",
+	    description: "Creating a short, engaging video that highlights the event's key features and encourages viewers to learn more.",
 	  },
 	  {
 	    name: "Post a teaser video on YouTube",
 	    date: "April 27",
-	    description:
-	      "Providing a glimpse of what attendees can expect at the expo.",
+	    description: "Providing a glimpse of what attendees can expect at the expo.",
 	  },
 	  {
 	    name: "Schedule an interview with a local radio station",
 	    date: "April 28",
-	    description:
-	      "To discuss the upcoming Major Cannabis Expo, its significance, and any special promotions or features.",
+	    description: "To discuss the upcoming Major Cannabis Expo, its significance, and any special promotions or features.",
 	  },
 	  {
 	    name: "Share the expo announcement on Twitter",
 	    date: "April 28",
-	    description:
-	      "Using relevant hashtags and tagging influencers in the industry.",
+	    description: "Using relevant hashtags and tagging influencers in the industry.",
 	  },
 	  {
 	    name: "Announce the expo on OnlyFans",
 	    date: "April 29",
-	    description:
-	      "Targeting relevant audiences who may be interested in the event.",
+	    description: "Targeting relevant audiences who may be interested in the event.",
 	  },
 	  {
 	    name: "Send out an email newsletter to your mailing list",
 	    date: "April 29",
-	    description:
-	      "Providing all the necessary information about the expo and inviting recipients to register.",
+	    description: "Providing all the necessary information about the expo and inviting recipients to register.",
 	  },
 	  {
 	    name: "Host a live Q&A session on Instagram or Facebook",
 	    date: "April 30",
-	    description:
-	      "Answering any questions about the expo and providing additional information.",
+	    description: "Answering any questions about the expo and providing additional information.",
 	  },
 	  {
 	    name: "Coordinate with sponsors, vendors, and partners",
 	    date: "April 30",
-	    description:
-	      "To share the event announcement on their social media platforms, leveraging their networks to increase reach.",
+	    description: "To share the event announcement on their social media platforms, leveraging their networks to increase reach.",
 	  },
 	  {
 	    name: "Pop-up event with Dispensary 1",
@@ -108,9 +96,9 @@ document.addEventListener("DOMContentLoaded", () => {
 	    description: "",
 	  },
 	  {
-	    name: "Memorial Day social media tribute and Major Cannabis Expo 2023 announcement",
+	    name: "Memorial Day",
 	    date: "May 31",
-	    description: "",
+	    description: "social media tribute and Major Cannabis Expo 2023 announcement"
 	  },
 	  {
 	    name: "Pop-up event with Dispensary 3",
