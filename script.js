@@ -305,7 +305,7 @@ const timeline = document.querySelector(".timeline");
 
         const dateElement = document.createElement("p");
         dateElement.textContent = eventData.date;
-        dateElement.addEventListener("click", () => {
+        dateElement.addEventListener("click", (eventData) => {
             eventElement.querySelector(".timeline-event-content").classList.toggle("expanded");
         });
 
