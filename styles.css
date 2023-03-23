@@ -11,6 +11,10 @@ header {
     padding: 20px;
     text-align: center;
     color: #ffffff;
+    background-image: url('YOUR_LOGO_URL');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 }
 
 /* Timeline Styles */
