@@ -17,7 +17,7 @@ header {
 
 header-logo {
     width: 15vw; /* Adjust the value as needed */
-    max-width: 100px; /* Set a maximum width to prevent the logo from getting too large on big screens */
+    max-width: 960px; /* Set a maximum width to prevent the logo from getting too large on big screens */
     display: block;
     margin: 0 auto;
 }
