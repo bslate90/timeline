@@ -49,6 +49,18 @@ header {
     width: 50%;
 }
 
+.timeline-event p {
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 4px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.timeline-event p:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  transform: scale(1.05);
+}
+
 .timeline-event-content {
     padding: 20px;
     background-color: white;
