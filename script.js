@@ -297,7 +297,7 @@ document.addEventListener("DOMContentLoaded", () => {
 	  },
 	];
 
-const timeline = document.querySelector(".timeline");
+ const timeline = document.querySelector(".timeline");
 
     timelineData.forEach(eventData => {
         const eventElement = document.createElement("div");
@@ -313,7 +313,7 @@ const timeline = document.querySelector(".timeline");
         contentElement.classList.add("timeline-event-content");
 
         const titleElement = document.createElement("h3");
-		titleElement.textContent = eventData.name;
+        titleElement.textContent = eventData.name;
 
         const descriptionElement = document.createElement("p");
         descriptionElement.textContent = eventData.description;
@@ -324,7 +324,8 @@ const timeline = document.querySelector(".timeline");
         eventElement.appendChild(contentElement);
         timeline.appendChild(eventElement);
     });
-// Add fade-in class to content elements by default
+
+    // Add fade-in class to content elements by default
     const contentElements = document.querySelectorAll(".timeline-event-content");
     contentElements.forEach(element => {
         element.classList.add("fade-in");
