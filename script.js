@@ -2,26 +2,26 @@ document.addEventListener("DOMContentLoaded", () => {
     const timelineData = [
 	  {
 	    name: "Send out a press release to relevant media outlets",
-	    date: "April 24",
-	    description: "Announcing the Major Cannabis Expo 2023, its dates, venue, and key highlights.",
+	    date: "April 17",
+	    description: "Announcing the Major Cannabis Expo 2023, its dates, venue, and key highlights. Describe Announcement Prep and Process",
 	  },
 	  {
-	    name: "Publish a blog post on the event website",
+	    name: "Publish an Announcement blog post on the event website",
 	    date: "April 24",
-	    description: "With all the essential information about the expo, including its purpose, schedule, speakers, and registration details.",
+	    description: "With all the essential information about the expo, including its purpose, schedule, speakers, and registration details for sponsors and vendors.",
+	  },
+	  {
+	    name: "Announce the expo on the MajorPac and Major Cannabis Expo Social Media pages",
+	    date: "April 24",
+	    description: "Sharing key information and inviting your network to attend.",
 	  },
 	  {
 	    name: "Launch a countdown on the event website and social media platforms",
 	    date: "April 25",
-	    description: "Creating anticipation for the expo.",
+	    description: "Creating anticipation for the expo, we're setting up Countdown Timers to Ticket Sale date (TBD).",
 	  },
 	  {
-	    name: "Announce the expo on your LinkedIn company page",
-	    date: "April 25",
-	    description: "Sharing key information and inviting your network to attend.",
-	  },
-	  {
-	    name: "Announce the expo on Facebook",
+	    name: "Announce the expo on Facebook and LinkedIn",
 	    date: "April 26",
 	    description: "Sharing the event page and inviting your audience to RSVP.",
 	  },
@@ -41,9 +41,9 @@ document.addEventListener("DOMContentLoaded", () => {
 	    description: "Providing a glimpse of what attendees can expect at the expo.",
 	  },
 	  {
-	    name: "Schedule an interview with a local radio station",
+	    name: "Interview with a local radio station",
 	    date: "April 28",
-	    description: "To discuss the upcoming Major Cannabis Expo, its significance, and any special promotions or features.",
+	    description: "To discuss the upcoming Major Cannabis Expo, its significance, and any special promotions or features. 103.3Jams?",
 	  },
 	  {
 	    name: "Share the expo announcement on Twitter",
