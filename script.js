@@ -359,8 +359,3 @@ const timeline = document.querySelector(".timeline");
 
     // Add scroll event listener
     window.addEventListener("scroll", handleScroll);
-<<<<<<< HEAD
-});
-=======
-});
->>>>>>> 2e9e397691749d6fb508357fbe8dfc45b736140d
