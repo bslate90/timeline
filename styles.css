@@ -19,7 +19,7 @@ header {
 
 .header-logo {
     width: 15vw;
-    max-width: 100px;
+    max-width: 200px;
     display: block;
     margin: 0 auto;
 }
@@ -81,7 +81,6 @@ header {
   transform: scale(1.2);
 }
 
-<<<<<<< HEAD
 .timeline-event-hidden {
   opacity: 1;
   transform: translateY(20px);
@@ -93,8 +92,6 @@ header {
   transform: translateY(0);
 }
 
-=======
->>>>>>> parent of c79add9 (added a scrolling effect)
 .timeline-event:nth-child(odd) {
     left: 0;
 }
