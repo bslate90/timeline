@@ -114,9 +114,6 @@ header {
 .timeline-event:nth-child(even) {
   left: 50%;
 }
-/* Expanded event styles */
-.timeline-event-content.expanded {
-  display: block;
 
 }
 
