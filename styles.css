@@ -74,7 +74,7 @@ header {
 }
 
 .timeline-event-date {
-  transition: transform 0.3s ease;
+  transition: transform 0.1s ease;
 }
 
 .timeline-event-date:hover {
@@ -84,11 +84,11 @@ header {
 .timeline-event-hidden {
   opacity: 1;
   transform: translateY(20px);
-  transition: opacity 0.5s, transform 0.5s;
+  transition: opacity 0.1s, transform 0.1s;
 }
 
 .timeline-event-visible {
-  opacity: 2;
+  opacity: 0;
   transform: translateY(0);
 }
 
