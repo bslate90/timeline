@@ -1,9 +1,9 @@
 document.addEventListener("DOMContentLoaded", () => {
     const timelineData = [
 	  {
-	    name: "Send out a press release to relevant media outlets",
+	    name: "Announcement Day",
 	    date: "April 24",
-	    description: "Announcing the Major Cannabis Expo 2023, its dates, venue, and key highlights.",
+	    description: "Announcing the Major Cannabis Expo 2023, its dates, venue, and key highlights. Make sure everyone/everything is prepared.",
 	  },
 	  {
 	    name: "Publish a blog post on the event website",
@@ -330,15 +330,13 @@ const timeline = document.querySelector(".timeline");
         element.classList.add("fade-in");
     });
 
-<<<<<<< HEAD
-=======
+
     // Add fade-in class to content elements by default
     const contentElements = document.querySelectorAll(".timeline-event-content");
     contentElements.forEach(element => {
         element.classList.add("fade-in");
     });
 
->>>>>>> 2e9e397691749d6fb508357fbe8dfc45b736140d
     // Function to check if an element is visible
     function isElementVisible(element) {
         const rect = element.getBoundingClientRect();
