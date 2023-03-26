@@ -326,10 +326,7 @@
     });
 
     // Add fade-in class to content elements by default
-    const contentElements = document.querySelectorAll(".timeline-event-content");
-    contentElements.forEach(element => {
-        element.classList.add("fade-in");
-    });
+    
 
     // Function to check if an element is visible
     function isElementVisible(element) {
