@@ -297,7 +297,7 @@ document.addEventListener("DOMContentLoaded", () => {
 	  },
 	];
 
- const timeline = document.querySelector(".timeline");
+const timeline = document.querySelector(".timeline");
 
     timelineData.forEach(eventData => {
         const eventElement = document.createElement("div");
@@ -313,7 +313,7 @@ document.addEventListener("DOMContentLoaded", () => {
         contentElement.classList.add("timeline-event-content");
 
         const titleElement = document.createElement("h3");
-        titleElement.textContent = eventData.name;
+		titleElement.textContent = eventData.name;
 
         const descriptionElement = document.createElement("p");
         descriptionElement.textContent = eventData.description;
@@ -324,31 +324,4 @@ document.addEventListener("DOMContentLoaded", () => {
         eventElement.appendChild(contentElement);
         timeline.appendChild(eventElement);
     });
-
-    // Add fade-in class to content elements by default
-    const contentElements = document.querySelectorAll(".timeline-event-content");
-    contentElements.forEach(element => {
-        element.classList.add("fade-in");
-    });
-
-    // Function to check if an element is visible
-    function isElementVisible(element) {
-        const rect = element.getBoundingClientRect();
-        const windowHeight = window.innerHeight || document.documentElement.clientHeight;
-        return rect.top <= windowHeight && rect.bottom >= 0;
-    }
-
-    // Function to handle the scroll event
-    function handleScroll() {
-        contentElements.forEach(element => {
-            if (isElementVisible(element)) {
-                element.classList.add("visible");
-            } else {
-                element.classList.remove("visible");
-            }
-        });
-    }
-
-    // Add scroll event listener
-    window.addEventListener("scroll", handleScroll);
 });
