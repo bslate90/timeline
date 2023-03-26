@@ -1,18 +1,9 @@
-document.addEventListener("DOMContentLoaded", () => {
+"document.addEventListener("DOMContentLoaded", () => {
     const timelineData = [
 	  {
-	    name: "MEDIA PREP",
-	    date: "March 31st",
-	    description: "Music Video Shoot for Commercial #1",
-	  },
-	    name: "Initial Sponsor Email",
-	    date: "April 3rd",
-	    description: "Announcement email to select sposors/vendors sent out. Link:   name: "Send out a press release to relevant media outlets"	    date: "April 17",
-	   }
-	   {
 	    name: "Send out a press release to relevant media outlets",
 	    date: "April 17",
-	    description: "Send to select vendors and sponsors.. link: https://drive.google.com/file/d/1No4JPH_FTGqnZ2sw8ocQHLmcSh9eXP8R/view ",
+	    description: "Announcing the Major Cannabis Expo 2023, its dates, venue, and key highlights. Describe Announcement Prep and Process",
 	  },
 	  {
 	    name: "Publish an Announcement blog post on the event website",
@@ -304,61 +295,60 @@ document.addEventListener("DOMContentLoaded", () => {
 	    date: "September 12",
 	    description: "",
 	  },
-	;
+	];
 
-  const timeline = document.querySelector(".timeline");
+ const timeline = document.querySelector(".timeline");
 
-  timelineData.forEach((eventData) => {
-    const eventElement = document.createElement("div");
-    eventElement.classList.add("timeline-event");
+    timelineData.forEach(eventData => {
+        const eventElement = document.createElement("div");
+        eventElement.classList.add("timeline-event");
 
-    const dateElement = document.createElement("p");
-    dateElement.textContent = eventData.date;
-    dateElement.classList.add("timeline-event-date"); // Add this line
-    dateElement.addEventListener("click", () => {
-      eventElement.querySelector(".timeline-event-content").classList.toggle("expanded");
+        const dateElement = document.createElement("p");
+        dateElement.textContent = eventData.date;
+        dateElement.addEventListener("click", (eventData) => {
+            eventElement.querySelector(".timeline-event-content").classList.toggle("expanded");
+        });
+
+        const contentElement = document.createElement("div");
+        contentElement.classList.add("timeline-event-content");
+
+        const titleElement = document.createElement("h3");
+        titleElement.textContent = eventData.name;
+
+        const descriptionElement = document.createElement("p");
+        descriptionElement.textContent = eventData.description;
+
+        contentElement.appendChild(titleElement);
+        contentElement.appendChild(descriptionElement);
+        eventElement.appendChild(dateElement);
+        eventElement.appendChild(contentElement);
+        timeline.appendChild(eventElement);
     });
 
-    const contentElement = document.createElement("div");
-    contentElement.classList.add("timeline-event-content");
-
-    const titleElement = document.createElement("h3");
-    titleElement.textContent = eventData.name;
-
-    const descriptionElement = document.createElement("p");
-    descriptionElement.textContent = eventData.description;
-
-    contentElement.appendChild(titleElement);
-    contentElement.appendChild(descriptionElement);
-    eventElement.appendChild(dateElement);
-    eventElement.appendChild(contentElement);
-    timeline.appendChild(eventElement);
-  });
-
-  // Add fade-in class to content elements by default
-  const contentElements = document.querySelectorAll(".timeline-event-content");
-  contentElements.forEach((element) => {
-    element.classList.add("fade-in");
-  });
-
-  // Function to check if an element is visible
-  function isElementVisible(element) {
-    const rect = element.getBoundingClientRect();
-    const windowHeight = window.innerHeight || document.documentElement.clientHeight;
-    return rect.top <= windowHeight && rect.bottom >= 0;
-  }
-
-  // Function to handle the scroll event
-  function handleScroll() {
-    contentElements.forEach((element) => {
-      if (isElementVisible(element)) {
-        element.classList.add("visible");
-      } else {
-        element.classList.remove("visible");
-      }
+    // Add fade-in class to content elements by default
+    const contentElements = document.querySelectorAll(".timeline-event-content");
+    contentElements.forEach(element => {
+        element.classList.add("fade-in");
     });
-  }
 
-  // Add scroll event listener
-  window.addEventListener("scroll", handleScroll);
-  ;
+    // Function to check if an element is visible
+    function isElementVisible(element) {
+        const rect = element.getBoundingClientRect();
+        const windowHeight = window.innerHeight || document.documentElement.clientHeight;
+        return rect.top <= windowHeight && rect.bottom >= 0;
+    }
+
+    // Function to handle the scroll event
+    function handleScroll() {
+        contentElements.forEach(element => {
+            if (isElementVisible(element)) {
+                element.classList.add("visible");
+            } else {
+                element.classList.remove("visible");
+            }
+        });
+    }
+
+    // Add scroll event listener
+    window.addEventListener("scroll", handleScroll);
+});
