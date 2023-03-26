@@ -1,52 +1,53 @@
 /* General Styles */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    color: #000000;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #000000;
 }
 
 header {
-    background-color: #3f51b5;
-    padding: 20px;
-    text-align: center;
-    color: #ffffff;
-    background-image: url('https://raw.githubusercontent.com/bslate90/timeline/main/logo.jpeg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
+  background-color: #3f51b5;
+  padding: 20px;
+  text-align: center;
+  color: #ffffff;
+  background-image: url('https://raw.githubusercontent.com/bslate90/timeline/main/logo.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 
 .header-logo {
-    width: 15vw;
-    max-width: 100px;
-    display: block;
-    margin: 0 auto;
+  width: 15vw;
+  max-width: 100px;
+  display: block;
+  margin: 0 auto;
 }
 
 /* Timeline Styles */
 .timeline {
-    position: relative;
-    max-width: 800px;
-    margin: 0 auto;
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 0;
 }
 
 .timeline::before {
-    content: '';
-    position: absolute;
-    width: 4px;
-    background-color: #45d542;
-    top: 0;
-    bottom: 0;
-    left: 50%;
-    margin-left: -2px;
+  content: '';
+  position: absolute;
+  width: 4px;
+  background-color: #45d542;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -2px;
 }
 
 .timeline-event {
-    padding: 10px 40px;
-    position: relative;
-    background-color: inherit;
-    width: 50%;
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
 }
 
 .timeline-event p {
@@ -62,27 +63,29 @@ header {
 }
 
 .timeline-event-content {
-    padding: 20px;
-    background-color: white;
-    position: relative;
-    border-radius: 6px;
-    display: none;
+  padding: 20px;
+  background-color: white;
+  position: relative;
+  border-radius: 6px;
+  display: none;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  z-index: 2;
 }
 
 .timeline-event-content::before {
-    content: '';
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    background-color: #45d542;
-    border-radius: 50%;
-    top: -15px;
-    left: calc(50% - 15px);
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background-color: #45d542;
+  border-radius: 50%;
+  top: -15px;
+  left: calc(50% - 15px);
 }
 
 .timeline-event::after {
-    background-color: #3f51b5;
-    border: 4px solid #ffffff;
+  background-color: #3f51b5;
+  border: 4px solid #ffffff;
 }
 
 .timeline-event-date {
@@ -105,34 +108,69 @@ header {
 }
 
 .timeline-event:nth-child(odd) {
-    left: 0;
+  left: 0;
 }
 
 .timeline-event:nth-child(even) {
-    left: 50%;
+  left: 50%;
 }
-
 /* Expanded event styles */
 .timeline-event-content.expanded {
-    display: block;
+  display: block;
+
 }
 
 /* Media queries for smaller screens */
 @media (max-width: 767px) {
-    .timeline::before {
-        left: 20px;
-    }
+.timeline::before {
+left: 20px;
+}
 
-    .timeline-event {
-        width: 90%;
-        margin-left: 20px;
-    }
+.timeline-event {
+width: 90%;
+margin-left: 20px;
+}
 
-    .timeline-event:nth-child(even) {
-        left: 0;
-    }
+.timeline-event:nth-child(even) {
+left: 0;
+}
 
-    .timeline-event-content::before {
-        left: 20px;
-    }
+.timeline-event-content::before {
+left: 20px;
+}
+
+/* Additional styles from second set of code */
+.timeline-event:before {
+content: "";
+position: absolute;
+top: 0;
+left: 50%;
+width: 10px;
+height: 10px;
+background-color: #ccc;
+border-radius: 50%;
+transform: translateX(-50%);
+}
+
+.timeline-event:nth-child(odd) .timeline-event-content {
+float: left;
+}
+
+.timeline-event:nth-child(even) .timeline-event-content {
+float: right;
+}
+
+.expanded {
+max-height: none;
+overflow: visible;
+}
+
+.fade-in {
+max-height: 0;
+overflow: hidden;
+transition: max-height 0.5s ease;
+}
+
+.visible {
+max-height: 200px;
 }
