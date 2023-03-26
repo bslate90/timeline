@@ -1,10 +1,15 @@
 document.addEventListener("DOMContentLoaded", () => {
     const timelineData = [
 	  {
-	    name: "Announcement Day",
+	    name: "Pre-Announcement",
 	    date: "April 17",
-	    description: "Announcing the Major Cannabis Expo 2023, its dates, venue, and key highlights. Make sure everyone/everything is prepared.",
+	    description: "Send out PromoPacs ahout the process for Announcing the Major Cannabis Expo 2023, its dates, venue, and key highlights. Make sure everyone/everything is prepared.",
 	  },
+	  {
+	  	name: "Announcement Dispensary",
+	  	date: "April 24th"
+	  	description: "Ensure everyone involves plays their part."
+	  }
 	  {
 	    name: "Publish a blog post on the event website",
 	    date: "April 24",
