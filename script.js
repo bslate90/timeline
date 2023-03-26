@@ -324,6 +324,7 @@ const timeline = document.querySelector(".timeline");
         eventElement.appendChild(contentElement);
         timeline.appendChild(eventElement);
     });
+
 // Add fade-in class to content elements by default
     const contentElements = document.querySelectorAll(".timeline-event-content");
     contentElements.forEach(element => {
@@ -357,4 +358,3 @@ const timeline = document.querySelector(".timeline");
 
     // Add scroll event listener
     window.addEventListener("scroll", handleScroll);
-});
