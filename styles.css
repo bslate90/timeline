@@ -139,38 +139,3 @@ left: 0;
 left: 20px;
 }
 
-/* Additional styles from second set of code */
-.timeline-event:before {
-content: "";
-position: absolute;
-top: 0;
-left: 50%;
-width: 10px;
-height: 10px;
-background-color: #ccc;
-border-radius: 50%;
-transform: translateX(-50%);
-}
-
-.timeline-event:nth-child(odd) .timeline-event-content {
-float: left;
-}
-
-.timeline-event:nth-child(even) .timeline-event-content {
-float: right;
-}
-
-.expanded {
-max-height: none;
-overflow: visible;
-}
-
-.fade-in {
-max-height: 0;
-overflow: hidden;
-transition: max-height 0.5s ease;
-}
-
-.visible {
-max-height: 200px;
-}
