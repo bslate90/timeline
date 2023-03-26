@@ -351,4 +351,3 @@
 
     // Add scroll event listener
     window.addEventListener("scroll", handleScroll);
-});
