@@ -1,9 +1,18 @@
 document.addEventListener("DOMContentLoaded", () => {
     const timelineData = [
 	  {
+	    name: "MEDIA PREP",
+	    date: "March 31st",
+	    description: "Music Video Shoot for Commercial #1",
+	  },
+	    name: "Initial Sponsor Email",
+	    date: "April 3rd",
+	    description: "Announcement email to select sposors/vendors sent out. Link:   name: "Send out a press release to relevant media outlets"	    date: "April 17",
+	   }
+	   {
 	    name: "Send out a press release to relevant media outlets",
 	    date: "April 17",
-	    description: "Announcing the Major Cannabis Expo 2023, its dates, venue, and key highlights. Describe Announcement Prep and Process",
+	    description: "Send to select vendors and sponsors.. link: https://drive.google.com/file/d/1No4JPH_FTGqnZ2sw8ocQHLmcSh9eXP8R/view ",
 	  },
 	  {
 	    name: "Publish an Announcement blog post on the event website",
