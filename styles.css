@@ -82,13 +82,13 @@ header {
 }
 
 .timeline-event-hidden {
-  opacity: 0;
+  opacity: 1;
   transform: translateY(20px);
   transition: opacity 0.5s, transform 0.5s;
 }
 
 .timeline-event-visible {
-  opacity: 1;
+  opacity: 2;
   transform: translateY(0);
 }
 

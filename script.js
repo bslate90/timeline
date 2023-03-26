@@ -357,3 +357,4 @@ const timeline = document.querySelector(".timeline");
 
     // Add scroll event listener
     window.addEventListener("scroll", handleScroll);
+});
