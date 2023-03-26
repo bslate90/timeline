@@ -304,7 +304,7 @@ document.addEventListener("DOMContentLoaded", () => {
 	    date: "September 12",
 	    description: "",
 	  },
-	];
+	;
 
   const timeline = document.querySelector(".timeline");
 
@@ -361,4 +361,4 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Add scroll event listener
   window.addEventListener("scroll", handleScroll);
-});
+  ;
