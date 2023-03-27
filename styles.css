@@ -37,7 +37,7 @@ header {
     height: calc(100% + 20px); /* Make the height extend between events */
     background-color: #4CAF50;
     top: 15px;
-    left: 25px; /* Adjust left property to position the line correctly */
+    left: 15px; /* Adjust left property to position the line correctly */
     z-index: -1; /* Send the line behind the content */
 }
 
