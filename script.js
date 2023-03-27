@@ -299,31 +299,29 @@ document.addEventListener("DOMContentLoaded", () => {
 
 const timeline = document.querySelector(".timeline");
 
-    timelineData.forEach(eventData => {
-        const eventElement = document.createElement("div");
-        eventElement.classList.add("timeline-event");
-        eventElement.setAttribute("data-aos", "fade-up");
+timelineData.forEach(eventData => {
+    const eventElement = document.createElement("div");
+    eventElement.classList.add("timeline-event");
 
-        const dateElement = document.createElement("p");
-        dateElement.textContent = eventData.date;
-        dateElement.addEventListener("click", (eventData) => {
-            eventElement.querySelector(".timeline-event-content").classList.toggle("expanded");
-            AOS.init();
-        });
-
-        const contentElement = document.createElement("div");
-        contentElement.classList.add("timeline-event-content");
-
-        const titleElement = document.createElement("h3");
-		titleElement.textContent = eventData.name;
-
-        const descriptionElement = document.createElement("p");
-        descriptionElement.textContent = eventData.description;
-
-        contentElement.appendChild(titleElement);
-        contentElement.appendChild(descriptionElement);
-        eventElement.appendChild(dateElement);
-        eventElement.appendChild(contentElement);
-        timeline.appendChild(eventElement);
+    const dateElement = document.createElement("p");
+    dateElement.textContent = eventData.date;
+    dateElement.addEventListener("click", () => {
+        eventElement.querySelector(".timeline-event-content").classList.toggle("expanded");
+        AOS.init();
     });
+
+    const contentElement = document.createElement("div");
+    contentElement.classList.add("timeline-event-content");
+
+    const titleElement = document.createElement("h3");
+    titleElement.textContent = eventData.name;
+
+    const descriptionElement = document.createElement("p");
+    descriptionElement.textContent = eventData.description;
+
+    contentElement.appendChild(titleElement);
+    contentElement.appendChild(descriptionElement);
+    eventElement.appendChild(dateElement);
+    eventElement.appendChild(contentElement);
+    timeline.appendChild(eventElement);
 });
