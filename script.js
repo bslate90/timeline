@@ -1,15 +1,10 @@
 document.addEventListener("DOMContentLoaded", () => {
     const timelineData = [
 	  {
-	    name: "Pre-Announcement",
-	    date: "April 17",
-	    description: "Send out PromoPacs ahout the process for Announcing the Major Cannabis Expo 2023, its dates, venue, and key highlights. Make sure everyone/everything is prepared.",
+	    name: "Send out a press release to relevant media outlets",
+	    date: "April 24",
+	    description: "Announcing the Major Cannabis Expo 2023, its dates, venue, and key highlights.",
 	  },
-	  {
-	  	name: "Announcement Dispensary",
-	  	date: "April 24th"
-	  	description: "Ensure everyone involves plays their part."
-	  }
 	  {
 	    name: "Publish a blog post on the event website",
 	    date: "April 24",
@@ -329,31 +324,4 @@ const timeline = document.querySelector(".timeline");
         eventElement.appendChild(contentElement);
         timeline.appendChild(eventElement);
     });
-
-// Add fade-in class to content elements by default
-    const contentElements = document.querySelectorAll(".timeline-event-content");
-    contentElements.forEach(element => {
-        element.classList.add("fade-in");
-    });
-
-    // Function to check if an element is visible
-    function isElementVisible(element) {
-        const rect = element.getBoundingClientRect();
-        const windowHeight = window.innerHeight || document.documentElement.clientHeight;
-        return rect.top <= windowHeight && rect.bottom >= 0;
-    }
-
-    // Function to handle the scroll event
-    function handleScroll() {
-        contentElements.forEach(element => {
-            if (isElementVisible(element)) {
-                element.classList.add("visible");
-            } else {
-                element.classList.remove("visible");
-            }
-        });
-    }
-
-    // Add scroll event listener
-    window.addEventListener("scroll", handleScroll);
 });
