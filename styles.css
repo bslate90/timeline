@@ -8,7 +8,7 @@ body {
 
 header {
     background-color: #f1f1f1;
-    padding: 200px;
+    padding: 150px;
     text-align: center;
     background-image: url("logo.png");
     background-position: center;
@@ -32,7 +32,7 @@ header {
 
 .timeline-event::after {
     content: '';
-    position: absolute;
+    position: left;
     width: 4px; /* Change the width to match the line */
     height: calc(100% + 20px); /* Make the height extend between events */
     background-color: #4CAF50;
