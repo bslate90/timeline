@@ -33,7 +33,7 @@ header {
 .timeline-event::after {
     content: '';
     position: absolute;
-    width: 35px; /* Increase the width */
+    width: 50px; /* Increase the width */
     height: 35px; /* Increase the height */
     background-color: #4CAF50;
     border-radius: 50%;
@@ -72,9 +72,8 @@ footer {
 }
 
 .footer-logo img {
-    max-width: 500px; 
+    max-width: 100px; /* Adjust the logo size here */
     height: auto;
-}
 }
 
 .footer-copyright {
