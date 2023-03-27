@@ -32,18 +32,13 @@ header {
 
 .timeline-event::after {
     content: '';
-    position: left;
+    position: absolute;
     width: 4px; /* Change the width to match the line */
     height: calc(100% + 20px); /* Make the height extend between events */
     background-color: #4CAF50;
     top: 15px;
-    left: -2px; /* Adjust left property */
+    left: 40px; /* Adjust left property to position the line correctly */
     z-index: -1; /* Send the line behind the content */
-}
-
-.timeline-event:nth-child(even)::after {
-    left: auto;
-    right: -18px; /* Adjust right property */
 }
 
 .timeline-event-content {
