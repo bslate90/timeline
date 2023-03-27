@@ -33,8 +33,8 @@ header {
 .timeline-event::after {
     content: '';
     position: absolute;
-    width: 50px; /* Increase the width */
-    height: 35px; /* Increase the height */
+    width: 40px; /* Increase the width */
+    height: 40px; /* Increase the height */
     background-color: #4CAF50;
     border-radius: 50%;
     top: 15px;
