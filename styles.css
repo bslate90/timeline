@@ -10,6 +10,10 @@ header {
     background-color: #f1f1f1;
     padding: 20px;
     text-align: center;
+    background-image: url("logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 /* Timeline Styles */
@@ -72,4 +76,4 @@ header {
 /* Expanded event styles */
 .timeline-event-content.expanded {
     display: block;
-}
+    border: 2px solid #808080;

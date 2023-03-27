@@ -302,11 +302,13 @@ const timeline = document.querySelector(".timeline");
     timelineData.forEach(eventData => {
         const eventElement = document.createElement("div");
         eventElement.classList.add("timeline-event");
+        eventElement.setAttribute("data-aos", "fade-up");
 
         const dateElement = document.createElement("p");
         dateElement.textContent = eventData.date;
         dateElement.addEventListener("click", (eventData) => {
             eventElement.querySelector(".timeline-event-content").classList.toggle("expanded");
+            AOS.init();
         });
 
         const contentElement = document.createElement("div");
