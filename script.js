@@ -16,14 +16,14 @@ document.addEventListener("DOMContentLoaded", () => {
 	    description: "Creating anticipation for the expo.",
 	  },
 	  {
-	    name: "Announce the expo on your LinkedIn company page",
+	    name: "Announce the expo on the Twitter company page",
 	    date: "April 25",
-	    description: "Sharing key information and inviting your network to attend.",
+	    description: "Using relevant hashtags and tagging influencers in the industry.",
 	  },
 	  {
-	    name: "Announce the expo on Facebook",
+	    name: "Announce the expo on OnlyFans",
 	    date: "April 26",
-	    description: "Sharing the event page and inviting your audience to RSVP.",
+	    description: "Targeting relevant audiences who may be interested in the event.",
 	  },
 	  {
 	    name: "Share the announcement on Instagram",
@@ -31,9 +31,9 @@ document.addEventListener("DOMContentLoaded", () => {
 	    description: "Using a visually appealing image or video and relevant hashtags.",
 	  },
 	  {
-	    name: "Announce the expo on TikTok",
+	    name: "Announce the expo on Facebook",
 	    date: "April 27",
-	    description: "Creating a short, engaging video that highlights the event's key features and encourages viewers to learn more.",
+	    description: "Sharing the event page and inviting your audience to RSVP.",
 	  },
 	  {
 	    name: "Post a teaser video on YouTube",
@@ -43,17 +43,17 @@ document.addEventListener("DOMContentLoaded", () => {
 	  {
 	    name: "Schedule an interview with a local radio station",
 	    date: "April 28",
-	    description: "To discuss the upcoming Major Cannabis Expo, its significance, and any special promotions or features.",
+	    description: "Discuss the upcoming Major Cannabis Expo, its significance, and any special promotions or features.",
 	  },
 	  {
-	    name: "Share the expo announcement on Twitter",
+	    name: "Share the expo announcement on LinkedIn",
 	    date: "April 28",
-	    description: "Using relevant hashtags and tagging influencers in the industry.",
+	    description: "Sharing key information and inviting everyone's network to attend.",
 	  },
-	  {
-	    name: "Announce the expo on OnlyFans",
+	  { 
+	    name: "Announce the expo on TikTok",
 	    date: "April 29",
-	    description: "Targeting relevant audiences who may be interested in the event.",
+	    description: "Creating a short, engaging video that highlights the event's key features and encourages viewers to learn more.",
 	  },
 	  {
 	    name: "Send out an email newsletter to your mailing list",
