@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", () => {
 	  	name:"Repost influencer Posts"
 	  	date: "April 21"
 	  	description: "April 21st-25th: Repost all of the Incfluencer's Posts and encourage our audience to check their social accounts out."
-	  }
+	  },
 	  {
 	    name: "Announce the Expo Countdown Calendar with Special event's",
 	    date: "April 25",
