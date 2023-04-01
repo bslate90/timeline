@@ -7,22 +7,27 @@ document.addEventListener("DOMContentLoaded", () => {
 	  },
 	  {
 	    name: "Announcement Day",
-	    date: "April 24",
+	    date: "April 20",
 	    description: "Share on All social media. All the essential information about the expo, including its purpose, schedule, speakers, and registration details.",
 	  },
 	  {
-	    name: "Launch a countdown on the event website and social media platforms",
-	    date: "April 25",
-	    description: "Creating anticipation for the expo.",
+	    name: "Announce the expo on OnlyFans",
+	    date: "April 20",
+	    description: "Target relevant audiences, utilize Mac's OF Sponsorship",
 	  },
 	  {
-	    name: "Announce the expo on the Twitter company page",
-	    date: "April 25",
+	    name: "Announce the expo on the Instagram company page",
+	    date: "April 21",
 	    description: "Using relevant hashtags and tagging influencers in the industry.",
 	  },
 	  {
-	    name: "Announce the expo on OnlyFans",
-	    date: "April 26",
+	  	name:"Repost influencer Posts"
+	  	date: "April 21-25"
+	  	description: "Repost all of the Incfluencer's Posts and encourage our audience to check their social accounts out."
+	  }
+	  {
+	    name: "Announce the Expo Countdown Calendar with Special event's",
+	    date: "April 25",
 	    description: "Targeting relevant audiences who may be interested in the event.",
 	  },
 	  {
