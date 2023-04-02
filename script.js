@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
 	  },
 	  {
 	    name: "Announce the expo on the Instagram company page",
-	    date: "April 21",
+	    date: "April 20",
 	    description: "Using relevant hashtags and tagging influencers in the industry.",
 	  },
 	  {
