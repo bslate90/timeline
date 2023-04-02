@@ -12,17 +12,17 @@ document.addEventListener("DOMContentLoaded", () => {
 	  },
 	  {
 	    name: "Announce the expo on OnlyFans",
-	    date: "April 20",
+	    date: "April 21",
 	    description: "Target relevant audiences, utilize Mac's OF Sponsorship",
 	  },
 	  {
 	    name: "Announce the expo on the Instagram company page",
-	    date: "April 20",
+	    date: "April 22",
 	    description: "Using relevant hashtags and tagging influencers in the industry.",
 	  },
 	  {
 	  	name:"Repost influencer Posts"
-	  	date: "April 21"
+	  	date: "April 23"
 	  	description: "April 21st-25th: Repost all of the Incfluencer's Posts and encourage our audience to check their social accounts out."
 	  },
 	  {
