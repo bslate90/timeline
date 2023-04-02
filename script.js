@@ -21,9 +21,9 @@ document.addEventListener("DOMContentLoaded", () => {
 	    description: "Using relevant hashtags and tagging influencers in the industry.",
 	  },
 	  {
-	  	name:"Repost influencer Posts"
-	  	date: "April 23"
-	  	description: "April 21st-25th: Repost all of the Incfluencer's Posts and encourage our audience to check their social accounts out."
+	  	name:"Repost influencer Posts",
+	  	date: "April 23",
+	  	description: "April 21st-25th: Repost all of the Incfluencer's Posts and encourage our audience to check their social accounts out.",
 	  },
 	  {
 	    name: "Announce the Expo Countdown Calendar with Special event's",
